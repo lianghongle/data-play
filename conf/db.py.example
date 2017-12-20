@@ -1,0 +1,17 @@
+arr = {
+    "host": 'localhost',
+    "user": 'root',
+    "password": '123456',
+    "db": 'test',
+    "charset": 'utf8'
+}
+
+url = "mysql+pymysql://" \
+      + arr['user'] + ":" + arr['password'] + "@" + arr['host'] + "/" + arr['db'] + "?charset=" + arr['charset']
+
+pre = 'stock_'
+tables = {
+    'stock':pre + 'stock',
+    'history':pre + 'history',
+    'history_all':pre + 'history_all',
+}

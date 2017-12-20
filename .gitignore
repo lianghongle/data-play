@@ -1,0 +1,5 @@
+.idea
+venv/
+log/
+conf/db.py
+test.py
