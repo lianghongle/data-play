@@ -37,6 +37,11 @@ def get_all_stock():
 
     # 存入数据库
     engine = create_engine(db.url)
+
+    # 更新数据前清空表，防止修改表结构
+    sql_truncate = 'TRUNCATE `' + table_stock + '`'
+    engine.execute(sql_truncate)
+
     """
     code,代码
     name,名称
@@ -55,7 +60,7 @@ def get_all_stock():
     pb,市净率
     timeToMarket,上市日期
     """
-    all_stock.to_sql(table_stock, engine, if_exists='replace', index=False)
+    all_stock.to_sql(table_stock, engine, if_exists='append', index=False) ## replace
 
     print('获取所有股票基本数据 完成')
     return all_stock

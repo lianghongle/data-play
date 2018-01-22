@@ -1,5 +1,6 @@
 .idea
 venv/
 log/
+files/
 conf/db.py
 test.py
