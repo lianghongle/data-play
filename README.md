@@ -7,7 +7,7 @@ DIRECTORY STRUCTURE
 
 ```
 /
-
+    bin/                可运行脚本
     README.md           readme.md
     venv/               虚拟环境
 ```
@@ -38,5 +38,8 @@ SQLAlchemy
 ## 相关文档
 * python3: https://docs.python.org/3/index.html
 * pandas: http://pandas.pydata.org/pandas-docs/stable/dsintro.html
+
+# 参考链接
+* https://www.cnblogs.com/mrchige/p/6387664.html
 
 # TO BE CONTINUED
