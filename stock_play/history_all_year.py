@@ -1,5 +1,8 @@
 #coding=utf-8
 
+import sys
+sys.path.append("..")
+
 # 获取所有股票的所有历史数据
 
 import stock_play.base as base
