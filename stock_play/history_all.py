@@ -8,7 +8,7 @@ import sys
 import tushare as ts
 from sqlalchemy import create_engine
 from conf import db
-import src.base as base
+import stock_play.base as base
 
 table_history_all = 'stock_history_all'
 

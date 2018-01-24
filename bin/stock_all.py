@@ -1,4 +1,4 @@
-# 基本数据脚本整合
+# 更新股票基本信息脚本
 
 import sys
 sys.path.append("..")

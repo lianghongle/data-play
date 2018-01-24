@@ -2,8 +2,8 @@
 
 # 获取所有股票的所有历史数据
 
-import src.base as base
-import src.history_all as history_all
+import stock_play.base as base
+import stock_play.history_all as history_all
 
 print('获取所有股票的所有历史数据')
 
