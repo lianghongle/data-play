@@ -65,7 +65,11 @@ def get_all_stock():
     print('获取所有股票基本数据 完成')
     return all_stock
 
-
+# logging.config.fileConfig("logger.conf")
+#    logger = logging.getLogger("demo01")
+#    logger.debug(u'这是demo01 debug日志记录')
+#    logger.info('u'这是demo01 info日志记录')
+#   logger.warning(u'这是demo01 warning日志记录')
 
 
 
